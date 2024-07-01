@@ -1,0 +1,81 @@
+@media (max-width:930px) {
+
+    .s1 {
+        font-size: 50%;
+    }
+
+    .s2 {
+        width: 2%;
+    }
+
+    .sc {
+        display: none;
+    }
+
+    .sc img {
+        width: 5%;
+        height: 5%;
+        padding-top: 5%;
+        padding-right: 3%;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .ssto {
+        display: flex;
+        flex-direction: column;
+        background-attachment: fixed;
+        padding: 2% 10% 2% 10%;
+        text-align: center;
+    }
+
+    .ssto a {
+        margin: 1.5%;
+        padding: 2% 4% 2% 4%;
+        text-decoration: none;
+        font-weight: bolder;
+        background-color: rgb(199, 42, 24);
+        border-radius: 10px;
+        color: white;
+        font-size: 150%;
+    }
+
+    .ssto a:hover {
+        color: orange;
+        transition: .2s;
+    }
+
+    .nav-bar {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .left img {
+        margin: 0;
+    }
+
+    .p1 {
+        font-size: 350%;
+    }
+
+    .p2 {
+        font-size: 200%;
+    }
+
+    .sl2 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .sl2 button {
+        margin-top: 40%;
+        padding: 4%;
+    }
+
+    input , .i1, .i2 {
+        border: 2px solid  rgb(228, 56, 56);
+    }
+
+}

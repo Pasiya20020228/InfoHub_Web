@@ -1,0 +1,620 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:900&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(110, 105, 105);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+
+.cont{
+    display: flex;
+    flex-direction: column;
+}
+
+.top-bar {
+    flex: auto;
+    flex-direction: row;
+    display: flex;
+    background-color: rgb(11, 11, 123);
+    color: white;
+    text-align: center;
+}
+
+.col1 {
+    flex: auto;
+    display: flex;
+    padding: 1%;
+}
+
+.col1 img {
+    width: 8%;
+    height: 60%;
+    padding: 1%;
+}
+
+.col1 h5 {
+    padding: 2%;
+}
+
+.col2 {
+    flex: auto;
+    display: flex;
+    padding: 1%;
+}
+
+.col2 img {
+    width: 7%;
+    height: 60%;
+    padding: 1%;
+}
+
+.col2 h5 {
+    padding: 2%;
+}
+
+.col3 {
+    flex: auto;
+    display: flex;
+    padding: 1%;
+}
+
+.col3 img {
+    width: 7%;
+    height: 60%;
+    padding: 1%;
+}
+
+.col3 h5 {
+    padding: 2%;
+}
+
+.col4 {
+    flex: auto;
+    background-color: orange;
+    padding: auto;
+    padding: 1%;
+}
+
+
+.col5 {
+    flex: auto;
+    padding: 1%;
+}
+
+.col5 img {
+    width: 15%;
+    padding: 1%;
+}
+
+.nav-bar {
+    flex: auto;
+    display: flex;
+    margin-top: 0.2%;
+}
+
+.left {
+    flex: 50;
+}
+
+.left img {
+    width: 20%;
+    margin-left: 8%;
+}
+
+
+.right {
+    flex: 80;
+    padding: 2%;
+}
+
+.nav {
+    padding-top: 1%;
+    padding: 1.5%;
+    border-radius: 8px;
+}
+
+
+
+.right a {
+    text-decoration: none;
+    margin: 1%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 120%;
+    color: #000;
+    font-family: 'Righteous', cursive;
+}
+
+
+.right a:hover {
+    background-color: orange;
+}
+
+
+
+
+
+
+
+.mid-top {
+    background-image: url(images/back02.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 4%;
+    padding-top: 10%;
+    height: 80vh;
+}
+
+.mid-top .p1 {
+    border-left: 3px solid black;
+    padding-left: 1%;
+}
+
+.p1 {
+    font-size: 500%;
+}
+
+.p2 {
+    font-size: 350%;
+}
+
+.mid-top input {
+    padding: 2%;
+    border-radius: 8px;
+    background-color: rgb(189, 32, 32);
+    color: white;
+    font-weight: bolder;
+}
+
+.layer {
+    margin-top: 17%;
+    margin-left: 35%;
+}
+
+.mid-top input:hover {
+    cursor: pointer;
+    border: 1px solid rgb(240, 31, 7);
+}
+
+.mid-top .i2 {
+    margin-left: 4%;
+}
+
+.about {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    padding-left: 6%;
+    padding-top: 3%;
+}
+
+.down {
+    flex: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+    padding: 1%;
+}
+
+.aleft {
+    flex: auto;
+    padding: 1%;
+}
+
+.aright {
+    flex: auto;
+    padding: 1%;
+}
+
+.about2 {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    padding-left: 6%;
+}
+
+.rows {
+    flex: auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 3%;
+}
+
+.colo {
+    flex: auto;
+    padding: 1%;
+}
+
+.slide1 {
+    flex: auto;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+.slide1 p {
+    margin: 1%;
+}
+
+.grid {
+    flex: auto;
+    display: flex;
+    padding-top: 2%;
+    flex-direction: row;
+    text-align: center;
+}
+
+.row {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.col {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    margin: 2%;
+    text-align: center;
+    background-color: rgb(219, 219, 218);
+    box-shadow: 3px 3px rgb(116, 113, 113);
+}
+
+.col img {
+    text-align: center;
+}
+
+.col img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: .2s;
+}
+
+.text button {
+    padding: 1.3%;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: rgb(228, 56, 56);
+    color:white;
+    border: none;
+}
+
+.text button:hover {
+    color: orange;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.slide2 {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(204, 200, 196, 0.888);
+    box-shadow: 5px 5px rgb(223, 213, 213);
+    margin-top: 2%;
+    margin-left: 6%;
+    margin-right: 1%;
+    padding: 2%;
+}
+
+.slide2 p {
+    padding-bottom: 2%;
+    font-size: 300%;
+}
+
+.slide2 video {
+    padding-left: 8%;
+}
+
+.slide3 {
+    background-image: url(images/backslide3.png) ;
+    background-color: rgb(90, 88, 88);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: screen;
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 2%;
+    margin-top: 2%;
+}
+
+
+.slide3 p {
+    padding: 0.7%;
+}
+
+.line {
+    flex: auto;
+    display: flex;
+    text-align: center;
+    padding: 2%;
+}
+
+
+.line p {
+    padding: 2%;
+}
+
+.cols {
+    flex: auto;
+    border-style: dotted;
+    text-align: center;
+    margin: 0.8%;
+}
+
+.slide4 {
+    flex: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 10%;
+    padding: 3%;
+    background-image: url(images/worldimage.jpg) ;
+    background-color: rgb(90, 88, 88);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: screen;
+}
+
+.sl1 {
+    flex: auto;
+}
+
+.sl2 {
+    flex: auto;
+    padding-top: 1.5%;
+    padding-left: 10%;
+}
+
+.sl2 button {
+    padding: 4%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(228, 56, 56);
+    font-weight: bold;
+    font-size: 110%;
+}
+
+.sl2 button:hover {
+    color: white;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.slide5 {
+    flex: auto;
+    padding-top: 2%;
+    padding-left: 6%;
+    display: flex;
+    flex-direction: column;
+}
+
+.slide5 p {
+    padding-bottom: 1%;
+}
+
+.form {
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.form p {
+    padding: 1%;
+}
+
+.tb {
+    padding: 1%;
+    width: 70%;
+}
+
+.sub-btn {
+    padding: 1%;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(189, 49, 49);
+}
+
+.sub-btn:hover {
+    color: orange;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.slide6 {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    padding-left: 6%;
+    padding-top: 5%;
+    padding-right: 2%;
+}
+
+.map {
+    flex: auto;
+    background-image: url(images/mapss.png) ;
+    background-color: rgb(90, 88, 88);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    margin-top: 3%;
+    padding-top: 8%;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 4%;
+    background-color: white;
+    box-shadow: 6px 6px rgb(102, 100, 100);
+}
+
+.l {
+    flex: auto;
+    padding: 1%;
+    background-color: blanchedalmond;
+    padding-top: 10%;
+}
+
+.l button {
+    margin-bottom: 8%;
+    padding: 4%;
+    border: none;
+    background-color: rgb(203, 48, 48);
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.l button:hover {
+    color: orange;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.r {
+    flex: auto;
+    padding: 1%;
+}
+
+.footer {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    background-color: rgb(65, 8, 65);
+}
+
+.foot-row {
+    flex: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.foot-col {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+.qlinks ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+  }
+  
+.qlinks li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+.qlinks li a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+.qlinks li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
+.copyright {
+    text-align: center;
+    padding: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Copied*/
+
+
+
+/*Copied*/
+
+
+
+
+
+/*Slide Show*/
+.mySlides {display:none;}
+/*Slide Show*/
+
+
+.sc {
+    display: none;
+}
+
+.ssto {
+    display: none;
+}
+
+
+
+
+@media (max-width:400px) {
+    .button {
+        display: flex;
+    }
+
+    .right {
+        display: none;
+    }
+}
